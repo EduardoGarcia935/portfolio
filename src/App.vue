@@ -1,14 +1,45 @@
 <script>
+  import navBar from "./components/pages/navBar.vue";
+  import hero from "./components/pages/hero.vue";
+  import subHero from "./components/pages/subHero.vue";
+  import works from "./components/pages/works.vue";
+  import about from "./components/pages/about.vue";
+  import skills from "./components/pages/skills.vue";
+  import contact from "./components/pages/contact.vue";
+  import footerVue from "./components/pages/footer.vue";
+
   export default {
     name: "App",
-    components: {},
+    components: {
+      navBar,
+      hero,
+      subHero,
+      works,
+      about,
+      skills,
+      contact,
+      footerVue,
+    },
   };
 </script>
 
 <template>
   <div id="app">
-    <h1>Teste</h1>
+    <navBar />
+    <hero />
+    <subHero />
+    <works />
+    <about />
+    <skills />
+    <contact />
+    <footerVue />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  #app {
+    width: 100vw;
+    max-width: 100%;
+    height: max-content;
+  }
+</style>
