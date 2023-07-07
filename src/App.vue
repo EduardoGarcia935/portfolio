@@ -1,4 +1,5 @@
 <script>
+  import Lenis from "@studio-freight/lenis";
   import navBar from "./components/pages/navBar.vue";
   import hero from "./components/pages/hero.vue";
   import subHero from "./components/pages/subHero.vue";
@@ -19,6 +20,16 @@
       skills,
       contact,
       footerVue,
+    },
+    mounted() {
+      const lenis = new Lenis();
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
     },
   };
 </script>
