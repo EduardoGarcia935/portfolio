@@ -5,7 +5,7 @@
   import subHero from "./components/pages/subHero.vue";
   import works from "./components/pages/works.vue";
   import about from "./components/pages/about.vue";
-  import skills from "./components/pages/skills.vue";
+  // import skills from "./components/pages/skills.vue";
   import contact from "./components/pages/contact.vue";
   import footerVue from "./components/pages/footer.vue";
 
@@ -17,7 +17,7 @@
       subHero,
       works,
       about,
-      skills,
+      // skills,
       contact,
       footerVue,
     },
@@ -41,7 +41,7 @@
     <subHero />
     <works />
     <about />
-    <skills />
+    <!-- <skills /> -->
     <contact />
     <footerVue />
   </div>

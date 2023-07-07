@@ -23,7 +23,7 @@
     width: 100vw;
     max-width: 100%;
     height: 80px;
-    background-color: yellow;
+    background-color: #303030;
     position: fixed;
     top: 0;
 
