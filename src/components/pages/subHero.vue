@@ -110,7 +110,7 @@
 
   .row2 {
     height: 150px;
-    padding: 40px 0 200px 0;
+    padding: 40px 0 300px 0;
     position: relative;
     border-bottom: 1px solid #d9d9d9;
   }
