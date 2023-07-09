@@ -2,13 +2,7 @@
   export default {
     name: "hero",
     components: {},
-    mounted() {
-      // const h1 = new SplitType("#h1", {
-      //   types: "lines",
-      //   linesClass: "lineChildren",
-      //   linesTag: "span",
-      // });
-    },
+    mounted() {},
   };
 </script>
 
@@ -20,7 +14,7 @@
         {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
         >{{ $t("hero.hello[1]") }}
       </h4>
-      <h1 id="h1" data-aos="fade-up">
+      <h1 id="h1">
         {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
         >{{ $t("hero.phrase[2]") }}
       </h1>
@@ -33,7 +27,7 @@
     height: 100vh;
     max-width: 100%;
     height: 100vh;
-    background: url("../../assets/img/Untitled-4.jpg") no-repeat;
+    background: url("../../assets/img/heroGB_desktop.jpg") no-repeat;
     background-size: cover;
     position: relative;
 
@@ -43,7 +37,7 @@
   }
 
   .container {
-    margin: 0 auto !important;
+    margin: 0 auto;
     width: 1100px;
     max-width: 100%;
     height: 100%;
@@ -80,7 +74,7 @@
 
   @media screen and (max-width: 600px) {
     main {
-      background: url("../../assets/img/Untitled-5.jpg") no-repeat;
+      background: url("../../assets/img/heroBG_mobile.jpg") no-repeat;
       background-size: cover;
     }
 
