@@ -40,8 +40,7 @@
     justify-content: center;
     align-items: center;
 
-    background-color: #fffaf8;
-    background-color: #111111;
+    background-color: var(--black);
   }
 
   .container {
@@ -54,24 +53,24 @@
   }
 
   .container .col1 h3 {
-    color: #878787;
+    color: var(--gray);
   }
 
   .container .col1 h2 {
     font-size: 50px;
     max-width: 500px;
     margin: 10px 0 20px 0;
-    color: #14cf93;
+    color: var(--green-water);
   }
 
   .container .col1 p {
     line-height: 40px;
-    color: #fffaf8;
+    color: var(--white);
   }
 
   .container .col1 p span {
     font-weight: 600;
-    color: #14cf93;
+    color: var(--green-water);
   }
 
   .container .col1 p.bigtext {
@@ -86,7 +85,7 @@
   .container .col2 .bigImg {
     width: 400px;
     height: 500px;
-    background-color: #d9d9d9;
+    background-color: var(--light-gray);
   }
 
   .container .col2 .bigImg img {

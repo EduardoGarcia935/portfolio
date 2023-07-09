@@ -56,19 +56,19 @@
 
   h1 {
     max-width: 600px;
-    color: #ffffff;
+    color: var(--white);
   }
 
   h4 {
-    color: #ffffff;
+    color: var(--white);
   }
 
   h1 span {
-    color: #878787;
+    color: var(--gray);
   }
 
   h4 span {
-    color: #878787;
+    color: var(--gray);
   }
 
   @media screen and (max-width: 600px) {

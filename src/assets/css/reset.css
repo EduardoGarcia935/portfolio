@@ -1,5 +1,4 @@
 @import url("beVietnam-pro.css");
-/* @import url("bootstrap-grid.min.css"); */
 
 *,
 *::after,
@@ -9,12 +8,23 @@
   padding: 0;
 }
 
-html {
-  /* overflow-x: hidden; */
+:root {
+  --green-water: #14cf93;
+  --black: #111111;
+  --white: #fffaf8;
+  --gray: #878787;
+  --light-gray: #d9d9d9;
+
+  --red: #eb3d3d;
+  --red-light: #f05454;
+  --red-dark: #d03333;
+  --yellow: #ffce52;
+  --yellow-light: #ffd76b;
+  --yellow-dark: #d9b043;
 }
 
-body {
-  overflow-y: hidden;
+html {
+  overflow-x: hidden;
 }
 
 html.lenis {
@@ -110,7 +120,7 @@ p {
   margin-bottom: 1rem;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
   height: 4px;
 }
@@ -124,4 +134,4 @@ p {
   background: #a8a8a8;
   border-radius: 8px;
   transition: 0.4s;
-} */
+}

@@ -23,7 +23,6 @@
     width: 100vw;
     max-width: 100%;
     height: 80px;
-    background-color: #303030;
     position: fixed;
     top: 0;
 
@@ -31,10 +30,11 @@
     justify-content: center;
     align-items: center;
     z-index: 990;
+    background-color: transparent;
+    background-color: var(--black);
   }
 
   .container {
-    background-color: #303030;
     width: 1100px;
     height: 100%;
     padding: 0 20px;

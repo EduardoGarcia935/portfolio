@@ -32,8 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fffaf8;
-    background-color: #111111;
+    background-color: var(--black);
   }
   .container {
     width: 1100px;
@@ -49,20 +48,20 @@
   }
 
   .container .col1 h3 {
-    color: #a8a8a8;
+    color: var(--gray);
     font-size: 20px;
   }
 
   .container .col1 h2 {
     font-size: 50px;
     margin: 10px 0;
-    color: #14cf93;
+    color: var(--green-water);
   }
 
   .container .col1 p {
     max-width: 450px;
     line-height: 2.2rem;
-    color: #fffaf8;
+    color: var(--white);
   }
 
   @media screen and (max-width: 900px) {

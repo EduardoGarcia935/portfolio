@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fffaf8;
+    background-color: var(--white);
   }
 
   .container {
@@ -91,7 +91,6 @@
   }
 
   .container .row1 h2 {
-    /* color: #14cf93; */
     font-size: 6rem;
     font-style: normal;
     font-weight: 300;
@@ -128,11 +127,11 @@
   .container_img img {
     width: 100%;
     height: 100%;
-    background-color: #878787;
+    background-color: var(--gray);
   }
 
   ul li {
-    color: #878787;
+    color: var(--gray);
     margin: 12px 0;
   }
 
