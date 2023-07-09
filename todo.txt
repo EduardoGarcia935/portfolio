@@ -1,0 +1,31 @@
+TO Do's Portfólio
+
+Navbar e menu
+
+Loader
+
+Animações de scroll review no site todo
+
+ajeitar CEO com tags e etc
+
+ajeitar imagens da selected works
+
+ajeitar imagem da about
+
+funcionalidade de links
+
+animações diferentes com gsap e scroll trigger
+
+
+
+
+responsividade
+
+Hero    = OK
+SubHero = OK
+Navbar
+Menu    
+Works   = OK
+Skills  = OK
+About   = OK
+Contact = OK

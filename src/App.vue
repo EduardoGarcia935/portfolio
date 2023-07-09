@@ -1,5 +1,9 @@
 <script>
   import Lenis from "@studio-freight/lenis";
+  import Ukiyo from "ukiyojs";
+
+  import loader from "./components/elements/loader.vue";
+
   import navBar from "./components/pages/navBar.vue";
   import hero from "./components/pages/hero.vue";
   import subHero from "./components/pages/subHero.vue";
@@ -9,11 +13,10 @@
   import contact from "./components/pages/contact.vue";
   import footerVue from "./components/pages/footer.vue";
 
-  import Ukiyo from "ukiyojs";
-
   export default {
     name: "App",
     components: {
+      loader,
       navBar,
       hero,
       subHero,
@@ -35,12 +38,17 @@
 
       const images = document.querySelectorAll(".container_img");
       new Ukiyo(images);
+
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 4600);
     },
   };
 </script>
 
 <template>
   <div id="app">
+    <loader />
     <navBar />
     <hero />
     <div class="wrapper">
