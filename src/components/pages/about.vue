@@ -23,8 +23,8 @@
         </p>
       </div>
       <div class="col2">
-        <div class="bigImg">
-          <div class="smallImg"></div>
+        <div class="container_img bigImg">
+          <img src="../../assets/img/perfil.JPG" alt="" class="ukiyo" />
         </div>
       </div>
     </div>
@@ -71,7 +71,6 @@
 
   .container .col1 p span {
     font-weight: 600;
-    color: #878787;
     color: #14cf93;
   }
 
@@ -88,19 +87,21 @@
     width: 400px;
     height: 500px;
     background-color: #d9d9d9;
-    position: relative;
   }
 
-  .container .col2 .smallImg {
-    width: 200px;
-    height: 300px;
-    background-color: #c2c2c2;
-    position: absolute;
-    left: -100px;
-    top: 150px;
+  .container .col2 .bigImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: all 0.6s ease;
   }
 
-  @media screen and (max-width: 1100px) {
+  .container .col2 .bigImg img:hover {
+    filter: none;
+  }
+
+  @media screen and (max-width: 1000px) {
     .container {
       display: grid;
       grid-template-areas: "col1" "col2";
@@ -112,26 +113,16 @@
       justify-content: start;
     }
 
-    .container .col2 .smallImg {
-      top: 150px;
-      left: 320px;
+    .container .col2 .bigImg {
+      width: 100%;
+      height: 500px;
+      background-color: #d9d9d9;
     }
   }
 
   @media screen and (max-width: 800px) {
     .container {
       padding: 100px 20px;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .container .col2 .bigImg {
-      width: 100%;
-      height: 400px;
-    }
-
-    .container .col2 .smallImg {
-      display: none;
     }
   }
 </style>

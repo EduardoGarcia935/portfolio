@@ -48,9 +48,6 @@
     padding-top: 100px;
   }
 
-  .col2 {
-  }
-
   .container .col1 h3 {
     color: #a8a8a8;
     font-size: 20px;
