@@ -4,7 +4,7 @@
   export default {
     name: "skillGlobe",
     mounted() {
-      if (window.innerWidth > 900) {
+      if (window.innerWidth > 600) {
         this.isLarge = true;
 
         try {
@@ -35,7 +35,7 @@
       }
 
       window.addEventListener("resize", (e) => {
-        if (window.innerWidth > 900) {
+        if (window.innerWidth > 600) {
           this.isLarge = true;
 
           try {
@@ -77,51 +77,50 @@
 <template>
   <canvas width="500" height="500" id="myCanvas" v-if="isLarge">
     <ul id="tags">
-      <li><a href="#" target="_blank">HTML</a></li>
-      <li><a href="#" target="_blank">CSS</a></li>
-      <li><a href="#" target="_blank">ES6</a></li>
-      <li><a href="#" target="_blank">TypeScript</a></li>
-      <li><a href="#" target="_blank">C</a></li>
-      <li><a href="#" target="_blank">JSON</a></li>
-      <li><a href="#" target="_blank">C++</a></li>
-      <li><a href="#" target="_blank">PHP</a></li>
-      <li><a href="#" target="_blank">Vue.js</a></li>
-      <li><a href="#" target="_blank">React.js</a></li>
-      <li><a href="#" target="_blank">Bootstrap</a></li>
-      <li><a href="#" target="_blank">Node JS</a></li>
-      <li><a href="#" target="_blank">Git</a></li>
-      <li><a href="#" target="_blank">SASS</a></li>
-      <li><a href="#" target="_blank">mySQL</a></li>
-      <li><a href="#" target="_blank">AGILE</a></li>
-      <li><a href="#" target="_blank">SQI</a></li>
-      <li><a href="#" target="_blank">npm</a></li>
-      <li><a href="#" target="_blank">Figma</a></li>
-      <li><a href="#" target="_blank">Motion</a></li>
+      <li><a>HTML</a></li>
+      <li><a>CSS</a></li>
+      <li><a>ES6+</a></li>
+      <li><a>C</a></li>
+      <li><a>JSON</a></li>
+      <li><a>PHP</a></li>
+      <li><a>Vue.js</a></li>
+      <li><a>React.js</a></li>
+      <li><a>C++</a></li>
+      <li><a>Bootstrap</a></li>
+      <li><a>Node JS</a></li>
+      <li><a>Git</a></li>
+      <li><a>SASS</a></li>
+      <li><a>mySQL</a></li>
+      <li><a>AGILE</a></li>
+      <li><a>SQI</a></li>
+      <li><a>npm</a></li>
+      <li><a>Figma</a></li>
+      <li><a>Motion</a></li>
     </ul>
   </canvas>
 
-  <canvas width="240" height="400" id="myCanvas2" v-else>
+  <canvas width="280" height="340" id="myCanvas2" v-else>
     <ul id="tags2">
-      <li><a href="#" target="_blank">HTML</a></li>
-      <li><a href="#" target="_blank">CSS</a></li>
-      <li><a href="#" target="_blank">ES6</a></li>
-      <li><a href="#" target="_blank">TypeScript</a></li>
-      <li><a href="#" target="_blank">C</a></li>
-      <li><a href="#" target="_blank">JSON</a></li>
-      <li><a href="#" target="_blank">C++</a></li>
-      <li><a href="#" target="_blank">PHP</a></li>
-      <li><a href="#" target="_blank">Vue.js</a></li>
-      <li><a href="#" target="_blank">React.js</a></li>
-      <li><a href="#" target="_blank">Bootstrap</a></li>
-      <li><a href="#" target="_blank">Node JS</a></li>
-      <li><a href="#" target="_blank">Git</a></li>
-      <li><a href="#" target="_blank">SASS</a></li>
-      <li><a href="#" target="_blank">mySQL</a></li>
-      <li><a href="#" target="_blank">AGILE</a></li>
-      <li><a href="#" target="_blank">SQI</a></li>
-      <li><a href="#" target="_blank">npm</a></li>
-      <li><a href="#" target="_blank">Figma</a></li>
-      <li><a href="#" target="_blank">Motion</a></li>
+      <li><a>HTML</a></li>
+      <li><a>CSS</a></li>
+      <li><a>ES6+</a></li>
+      <li><a>TypeScript</a></li>
+      <li><a>C</a></li>
+      <li><a>JSON</a></li>
+      <li><a>C++</a></li>
+      <li><a>PHP</a></li>
+      <li><a>Vue.js</a></li>
+      <li><a>React.js</a></li>
+      <li><a>Bootstrap</a></li>
+      <li><a>Node JS</a></li>
+      <li><a>Git</a></li>
+      <li><a>SASS</a></li>
+      <li><a>mySQL</a></li>
+      <li><a>AGILE</a></li>
+      <li><a>SQI</a></li>
+      <li><a>npm</a></li>
+      <li><a>Figma</a></li>
+      <li><a>Motion</a></li>
     </ul>
   </canvas>
 </template>

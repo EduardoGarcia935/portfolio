@@ -21,7 +21,6 @@
         <p>
           {{ $t("about.working[0]") }}<span>{{ $t("about.working[1]") }}</span>
         </p>
-        <button>{{ $t("about.button") }}</button>
       </div>
       <div class="col2">
         <div class="bigImg">
@@ -42,12 +41,13 @@
     align-items: center;
 
     background-color: #fffaf8;
+    background-color: #111111;
   }
 
   .container {
     width: 1100px;
     height: 100%;
-    padding: 20px 20px;
+    padding: 120px 20px;
 
     display: grid;
     grid-template-areas: "col1 col2";
@@ -61,27 +61,22 @@
     font-size: 50px;
     max-width: 500px;
     margin: 10px 0 20px 0;
+    color: #14cf93;
   }
 
   .container .col1 p {
     line-height: 40px;
+    color: #fffaf8;
   }
 
   .container .col1 p span {
     font-weight: 600;
     color: #878787;
+    color: #14cf93;
   }
 
   .container .col1 p.bigtext {
     max-width: 500px;
-  }
-
-  .container .col1 button {
-    font-size: 14px;
-    padding: 16px 40px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
   }
 
   .container .col2 {

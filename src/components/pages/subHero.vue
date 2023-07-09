@@ -124,6 +124,7 @@
 
   .row2 .p1 {
     color: #878787;
+    color: #14cf93;
     margin-bottom: 40px;
   }
 
