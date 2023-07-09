@@ -9,7 +9,6 @@
 <template>
   <main class="container_img ukiyo">
     <div class="container ukiyo">
-      <img src="../../assets/img/Untitled-3" alt="" />
       <h4>
         {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
         >{{ $t("hero.hello[1]") }}
