@@ -56,6 +56,7 @@
   .row1 h2 {
     max-width: 400px;
     line-height: 3rem;
+    color: #14cf93;
     margin: 10px 0 15px 0;
   }
 
@@ -76,6 +77,7 @@
 
   .row1 .group p {
     margin: 0;
+    font-size: 14px;
   }
 
   .row1 .group .dot {
