@@ -48,6 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fffaf8;
   }
 
   .container {
@@ -66,6 +67,7 @@
 
   .container .row1 h2:nth-child(2) {
     color: #a8a8a8;
+    color: #14cf93;
   }
 
   .container .row2 {

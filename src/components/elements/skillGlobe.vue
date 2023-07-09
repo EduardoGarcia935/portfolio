@@ -10,7 +10,7 @@
         try {
           TagCanvas.Delete("myCanvas2");
 
-          TagCanvas.textColour = "#000000";
+          TagCanvas.textColour = "#14cf93";
           TagCanvas.depth = 0.8;
           TagCanvas.outlineColour = "transparent";
           TagCanvas.maxSpeed = 0.04;
@@ -24,7 +24,7 @@
         try {
           TagCanvas.Delete("myCanvas");
 
-          TagCanvas.textColour = "#000000";
+          TagCanvas.textColour = "#14cf93";
           TagCanvas.depth = 0.8;
           TagCanvas.outlineColour = "transparent";
           TagCanvas.maxSpeed = 0.04;
@@ -41,7 +41,7 @@
           try {
             TagCanvas.Delete("myCanvas2");
 
-            TagCanvas.textColour = "#000000";
+            TagCanvas.textColour = "#14cf93";
             TagCanvas.depth = 0.8;
             TagCanvas.outlineColour = "transparent";
             TagCanvas.maxSpeed = 0.04;
@@ -55,7 +55,7 @@
           try {
             TagCanvas.Delete("myCanvas");
 
-            TagCanvas.textColour = "#000000";
+            TagCanvas.textColour = "#14cf93";
             TagCanvas.depth = 0.8;
             TagCanvas.outlineColour = "transparent";
             TagCanvas.maxSpeed = 0.04;

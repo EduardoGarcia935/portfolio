@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 html.lenis {
   height: auto;
 }
@@ -32,6 +36,11 @@ html.lenis {
 body {
   font-family: "BeVietnamPro-Light";
   background-color: #fffaf8;
+}
+
+::selection {
+  background-color: #14cf93; /* Cor de fundo do texto selecionado */
+  color: #000; /* Cor do texto selecionado */
 }
 
 ul,
@@ -96,3 +105,19 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a8a8a8;
+  border-radius: 8px;
+  transition: 0.4s;
+} */

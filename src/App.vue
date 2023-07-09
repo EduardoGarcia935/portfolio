@@ -9,6 +9,8 @@
   import contact from "./components/pages/contact.vue";
   import footerVue from "./components/pages/footer.vue";
 
+  import Ukiyo from "ukiyojs";
+
   export default {
     name: "App",
     components: {
@@ -30,6 +32,9 @@
       }
 
       requestAnimationFrame(raf);
+
+      const images = document.querySelectorAll(".container_img");
+      new Ukiyo(images);
     },
   };
 </script>
@@ -38,12 +43,14 @@
   <div id="app">
     <navBar />
     <hero />
-    <subHero />
-    <works />
-    <about />
-    <skills />
-    <contact />
-    <footerVue />
+    <div class="wrapper">
+      <subHero />
+      <works />
+      <about />
+      <skills />
+      <contact />
+      <footerVue />
+    </div>
   </div>
 </template>
 
@@ -52,5 +59,10 @@
     width: 100vw;
     max-width: 100%;
     height: max-content;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 12;
   }
 </style>

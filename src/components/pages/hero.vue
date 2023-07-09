@@ -2,153 +2,90 @@
   export default {
     name: "hero",
     components: {},
+    mounted() {
+      // const h1 = new SplitType("#h1", {
+      //   types: "lines",
+      //   linesClass: "lineChildren",
+      //   linesTag: "span",
+      // });
+    },
   };
 </script>
 
 <template>
-  <main>
-    <div class="container">
-      <div class="col1">
-        <h4>
-          {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
-          >{{ $t("hero.hello[1]") }}
-        </h4>
-        <h1>
-          {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
-          >{{ $t("hero.phrase[2]") }}
-        </h1>
-      </div>
-      <div class="col2">
-        <div class="glass">
-          <div class="bubble white"></div>
-          <div class="bubble green"></div>
-        </div>
-      </div>
+  <main class="container_img ukiyo">
+    <div class="container ukiyo">
+      <img src="../../assets/img/Untitled-3" alt="" />
+      <h4>
+        {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
+        >{{ $t("hero.hello[1]") }}
+      </h4>
+      <h1 id="h1" data-aos="fade-up">
+        {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
+        >{{ $t("hero.phrase[2]") }}
+      </h1>
     </div>
   </main>
 </template>
 
 <style scoped>
   main {
-    width: 100vw;
+    height: 100vh;
     max-width: 100%;
-    height: max-content;
+    height: 100vh;
+    background: url("../../assets/img/Untitled-4.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .container {
+    margin: 0 auto !important;
     width: 1100px;
+    max-width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-areas: "col1 col2";
-    padding: 200px 20px 200px 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0px 20px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
   }
 
-  .col1 {
-    grid-area: col1;
-  }
-
-  .col1 h1 {
+  h1 {
     max-width: 600px;
+    color: #ffffff;
   }
 
-  .col1 h1 span {
+  h4 {
+    color: #ffffff;
+  }
+
+  h1 span {
     color: #878787;
   }
 
-  .col1 h4 span {
+  h4 span {
     color: #878787;
   }
 
-  .col2 {
-    grid-area: col2;
-    min-width: 240px;
-  }
-
-  .glass {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-
-  .glass::before {
-    content: "";
-    height: 100%;
-    width: 40%;
-    left: 0;
-    top: 0;
-    background: rgba(3, 9, 23, 0.01);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    z-index: 2;
-  }
-
-  .glass::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 40%;
-    top: 0;
-    right: 0;
-    background: rgba(3, 9, 23, 0.01);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    position: absolute;
-    z-index: 2;
-  }
-
-  .bubble {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-
-    /* top: 50%;
-    left: 50%; */
-  }
-
-  .green {
-    /* background-color: greenyellow; */
-    background-color: #a7a7a7;
-    animation: move-ball 5s ease infinite alternate;
-  }
-
-  .white {
-    background-color: #d9d9d9;
-    animation: move-ball 5s ease infinite 3s alternate;
-  }
-
-  @keyframes move-ball {
-    0% {
-      top: 20%;
-      right: 30%;
-    }
-    50% {
-      top: 50%;
-      right: 50%;
-    }
-    100% {
-      top: 30%;
-      right: 65%;
-    }
-  }
-
-  @media screen and (max-width: 1000px) {
-    .container {
-      grid-template-areas: "col1" "col2";
-      gap: 50px;
+  @media screen and (max-width: 600px) {
+    main {
+      background: url("../../assets/img/Untitled-5.jpg") no-repeat;
+      background-size: cover;
     }
 
-    .col1 {
-      min-width: none;
-    }
-
-    .col2 {
-      min-height: 200px;
+    h1 {
+      max-width: 400px;
     }
   }
 </style>
