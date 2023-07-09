@@ -7,7 +7,9 @@
 
 <template>
   <main>
-    <h1>footer</h1>
+    <div class="container">
+      <p>©2023 EduardoGarcia. All rights reserved</p>
+    </div>
   </main>
 </template>
 
@@ -15,14 +17,15 @@
   main {
     width: 100vw;
     max-width: 100%;
-    height: 100px;
-    background-color: grey;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .container {
-    background-color: aliceblue;
+    width: 1100px;
+    height: 100%;
+    padding: 40px 20px;
   }
 </style>
