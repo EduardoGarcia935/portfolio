@@ -9,8 +9,14 @@
   <main>
     <div class="container">
       <div class="col1">
-        <h4>Hi, i'm <span>Eduardo Garcia</span> and</h4>
-        <h1>I create <span>good shit</span> and hide the bad ones.</h1>
+        <h4>
+          {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
+          >{{ $t("hero.hello[1]") }}
+        </h4>
+        <h1>
+          {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
+          >{{ $t("hero.phrase[2]") }}
+        </h1>
       </div>
       <div class="col2">
         <div class="glass">

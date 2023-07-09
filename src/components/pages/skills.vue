@@ -13,12 +13,9 @@
   <main>
     <div class="container">
       <div class="col1">
-        <h3>Skills & Technologies</h3>
-        <h2>My utility belt</h2>
-        <p>
-          The whole set of practices, teachings and learnings that i'have
-          acquired throughout my career and that i use to create amazing things
-        </p>
+        <h3>{{ $t("skills.subtitle") }}</h3>
+        <h2>{{ $t("skills.title") }}</h2>
+        <p>{{ $t("skills.text") }}</p>
       </div>
       <div class="col2">
         <skillGlobe />

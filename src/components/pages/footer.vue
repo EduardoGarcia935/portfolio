@@ -8,7 +8,7 @@
 <template>
   <main>
     <div class="container">
-      <p>©2023 EduardoGarcia. All rights reserved</p>
+      <p>{{ $t("footer.label") }}</p>
     </div>
   </main>
 </template>

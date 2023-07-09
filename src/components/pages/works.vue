@@ -9,57 +9,52 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h2>Selected works</h2>
-        <p>Some opportunities and projects that I'm proud of!</p>
+        <h2>{{ $t("works.title") }}</h2>
+        <p>{{ $t("works.subTitle") }}</p>
       </div>
       <div class="row2">
         <div class="erick">
           <div class="container_img"></div>
-          <h3>Erick Avila</h3>
-          <p>One of the best designers i know.</p>
+          <h3>{{ $t("works.erick.title") }}</h3>
+          <p>{{ $t("works.erick.desc") }}</p>
           <ul>
-            <li>UI/UX Design</li>
-            <li>Website</li>
-            <li>Motion</li>
-            <li>Front end</li>
+            <li>{{ $t("works.erick.list[0]") }}</li>
+            <li>{{ $t("works.erick.list[1]") }}</li>
+            <li>{{ $t("works.erick.list[2]") }}</li>
+            <li>{{ $t("works.erick.list[3]") }}</li>
           </ul>
         </div>
         <div class="nubank">
           <div class="container_img"></div>
-          <h3>Nubank</h3>
-          <p>A website redesign of one the largest Brazilian fintechs.</p>
+          <h3>{{ $t("works.nubank.title") }}</h3>
+          <p>{{ $t("works.nubank.desc") }}</p>
           <ul>
-            <li>UI Design</li>
-            <li>Website</li>
-            <li>Motion</li>
-            <li>Redesign</li>
-            <li>Front end</li>
+            <li>{{ $t("works.nubank.list[0]") }}</li>
+            <li>{{ $t("works.nubank.list[1]") }}</li>
+            <li>{{ $t("works.nubank.list[2]") }}</li>
+            <li>{{ $t("works.nubank.list[3]") }}</li>
+            <li>{{ $t("works.nubank.list[4]") }}</li>
           </ul>
         </div>
         <div class="lib">
           <div class="container_img"></div>
-          <h3>Component lib</h3>
-          <p>
-            My own component library based on top of the best Javascript
-            Framework.
-          </p>
+          <h3>{{ $t("works.lib.title") }}</h3>
+          <p>{{ $t("works.lib.desc") }}</p>
           <ul>
-            <li>UI/UX Design</li>
-            <li>Motion</li>
-            <li>Front end</li>
+            <li>{{ $t("works.lib.list[0]") }}</li>
+            <li>{{ $t("works.lib.list[1]") }}</li>
+            <li>{{ $t("works.lib.list[2]") }}</li>
           </ul>
         </div>
         <div class="spiderman">
           <div class="container_img"></div>
-          <h3>Spiderman</h3>
-          <p>
-            A cool motion based website for the Friendly Neighborhood Spidey,
-          </p>
+          <h3>{{ $t("works.spiderman.title") }}</h3>
+          <p>{{ $t("works.spiderman.desc") }}</p>
           <ul>
-            <li>UI Design</li>
-            <li>Website</li>
-            <li>Motion</li>
-            <li>Front end</li>
+            <li>{{ $t("works.spiderman.list[0]") }}</li>
+            <li>{{ $t("works.spiderman.list[1]") }}</li>
+            <li>{{ $t("works.spiderman.list[2]") }}</li>
+            <li>{{ $t("works.spiderman.list[3]") }}</li>
           </ul>
         </div>
       </div>

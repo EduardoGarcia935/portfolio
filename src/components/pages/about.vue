@@ -9,21 +9,19 @@
   <main>
     <div class="container">
       <div class="col1">
-        <h3>About me</h3>
-        <h2>Eduardo Amengual Garcia</h2>
+        <h3>{{ $t("about.title") }}</h3>
+        <h2>{{ $t("about.name") }}</h2>
         <p class="bigtext">
-          I'm a nerdy fan of pop culture, who when not studying or developing a
-          personal project is playing video games. I have been studying software
-          development for 4 years and currently live in the state of Rio Grande
-          do Sul, Brazil.
+          {{ $t("about.bigText") }}
         </p>
         <p>
-          I am currently studying <span>Software Engineering at PUCRS</span>
+          {{ $t("about.studying[0]")
+          }}<span>{{ $t("about.studying[1]") }}</span>
         </p>
         <p>
-          And working as <span>Junior Frond End Developer Fully Remote</span>
+          {{ $t("about.working[0]") }}<span>{{ $t("about.working[1]") }}</span>
         </p>
-        <button>Contact</button>
+        <button>{{ $t("about.button") }}</button>
       </div>
       <div class="col2">
         <div class="bigImg">

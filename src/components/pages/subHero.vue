@@ -9,24 +9,22 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h4>I'm a</h4>
-        <h2>Freelancer, Designer & developer</h2>
+        <h4>{{ $t("subHero.iAM.intro") }}</h4>
+        <h2>{{ $t("subHero.iAM.title") }}</h2>
         <p>
-          I help people bring their ideias to life in an unique way. The road
-          may be slow and troubled, but if my name is on it, you can be sure you
-          will have my best.
+          {{ $t("subHero.iAM.text") }}
         </p>
         <div class="group">
           <div class="dot"></div>
-          <p>Currently seeking new opportunities</p>
+          <p>{{ $t("subHero.iAM.current") }}</p>
         </div>
       </div>
       <div class="row2">
         <div class="arrow">
           <img src="../../assets/img/arrow.svg" alt="arrow" />
         </div>
-        <p class="p1">THINGS I CAN HELP YOU WITH</p>
-        <p class="p2">WEB & MOBILE / UI&UX / MOTION / FRONT-END DEVELOPMENT</p>
+        <p class="p1">{{ $t("subHero.help") }}</p>
+        <p class="p2">{{ $t("subHero.things") }}</p>
       </div>
     </div>
   </main>

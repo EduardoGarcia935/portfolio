@@ -9,25 +9,31 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h2>Have an ideia?</h2>
-        <h2>Make magic with me</h2>
+        <h2>{{ $t("contact.title[0]") }}</h2>
+        <h2>{{ $t("contact.title[1]") }}</h2>
       </div>
       <div class="row2">
         <div class="info">
-          <h3>Write me</h3>
+          <h3>{{ $t("contact.labels[0]") }}</h3>
           <p>eduardo.agarcia117@gmail.com</p>
         </div>
         <div class="info">
-          <h3>Call me</h3>
+          <h3>{{ $t("contact.labels[1]") }}</h3>
           <p>55 51 99670-0348</p>
         </div>
       </div>
       <div class="row3">
-        <p>Follow me</p>
+        <p>{{ $t("contact.labels[2]") }}</p>
         <ul>
-          <li><a href="#">Linkedin</a></li>
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Instagram</a></li>
+          <li>
+            <a href="#">{{ $t("contact.links[0]") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("contact.links[1]") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("contact.links[2]") }}</a>
+          </li>
         </ul>
       </div>
     </div>
