@@ -53,7 +53,11 @@
         </div>
         <div class="spiderman">
           <div class="container_img">
-            <img src="../../assets/img/spiderman.svg" alt="" class="ukiyo" />
+            <img
+              src="../../assets/img/spiderman-desktop.svg"
+              alt=""
+              class="ukiyo"
+            />
           </div>
           <h3>{{ $t("works.spiderman.title") }}</h3>
           <p>{{ $t("works.spiderman.desc") }}</p>
@@ -114,7 +118,6 @@
   }
 
   .container_img {
-    background-color: #878787;
     width: 70%;
     height: 70vh;
     max-width: 310px;
@@ -125,6 +128,7 @@
   .container_img img {
     width: 100%;
     height: 100%;
+    background-color: #878787;
   }
 
   ul li {
