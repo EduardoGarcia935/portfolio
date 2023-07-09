@@ -10,50 +10,67 @@
 </script>
 
 <template>
-  <section class="container">
-    <div class="row">
-      <div class="col text">
-        <h3>Skills & Technlogies</h3>
+  <main>
+    <div class="container">
+      <div class="col1">
+        <h3>Skills & Technologies</h3>
         <h2>My utility belt</h2>
         <p>
           The whole set of practices, teachings and learnings that i'have
           acquired throughout my career and that i use to create amazing things
         </p>
       </div>
-      <div class="col-12 col-lg-6 globe">
+      <div class="col2">
         <skillGlobe />
       </div>
     </div>
-  </section>
+  </main>
 </template>
 
 <style scoped>
-  section {
+  main {
     width: 100vw;
     max-width: 100%;
-    height: 100vh;
-    background-color: #111111;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fffaf8;
   }
-
   .container {
-    background-color: aliceblue;
+    width: 1100px;
+    height: 100%;
+    padding: 150px 20px;
+
+    display: grid;
+    grid-template-areas: "col1 col2";
   }
 
-  .text {
-    background-color: yellow;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+  .container .col1 h3 {
+    color: #a8a8a8;
+    font-size: 20px;
   }
 
-  .globe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1a1a1a;
+  .container .col1 h2 {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+
+  .container .col1 p {
+    max-width: 450px;
+    line-height: 2.2rem;
+  }
+
+  @media screen and (max-width: 670px) {
+    .container {
+      display: grid;
+      grid-template-areas: "col1" "col2";
+    }
+
+    .container .col2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 </style>

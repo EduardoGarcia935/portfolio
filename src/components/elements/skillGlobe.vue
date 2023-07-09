@@ -4,13 +4,13 @@
   export default {
     name: "skillGlobe",
     mounted() {
-      if (window.innerWidth > 1099) {
+      if (window.innerWidth > 900) {
         this.isLarge = true;
 
         try {
           TagCanvas.Delete("myCanvas2");
 
-          TagCanvas.textColour = "#08fdd8";
+          TagCanvas.textColour = "#000000";
           TagCanvas.depth = 0.8;
           TagCanvas.outlineColour = "transparent";
           TagCanvas.maxSpeed = 0.04;
@@ -24,24 +24,24 @@
         try {
           TagCanvas.Delete("myCanvas");
 
-          TagCanvas.textColour = "#6DE888";
+          TagCanvas.textColour = "#000000";
           TagCanvas.depth = 0.8;
           TagCanvas.outlineColour = "transparent";
           TagCanvas.maxSpeed = 0.04;
           TagCanvas.Start("myCanvas2", "tags2");
         } catch (error) {
-          console;
+          console.log(error);
         }
       }
 
       window.addEventListener("resize", (e) => {
-        if (window.innerWidth > 1099) {
+        if (window.innerWidth > 900) {
           this.isLarge = true;
 
           try {
             TagCanvas.Delete("myCanvas2");
 
-            TagCanvas.textColour = "#08fdd8";
+            TagCanvas.textColour = "#000000";
             TagCanvas.depth = 0.8;
             TagCanvas.outlineColour = "transparent";
             TagCanvas.maxSpeed = 0.04;
@@ -55,17 +55,15 @@
           try {
             TagCanvas.Delete("myCanvas");
 
-            TagCanvas.textColour = "#6DE888";
+            TagCanvas.textColour = "#000000";
             TagCanvas.depth = 0.8;
             TagCanvas.outlineColour = "transparent";
             TagCanvas.maxSpeed = 0.04;
             TagCanvas.Start("myCanvas2", "tags2");
           } catch (error) {
-            console;
+            console.log(error);
           }
         }
-
-        console.log(window.innerWidth);
       });
     },
     data() {
@@ -102,7 +100,7 @@
     </ul>
   </canvas>
 
-  <canvas width="280" height="500" id="myCanvas2" v-else>
+  <canvas width="240" height="400" id="myCanvas2" v-else>
     <ul id="tags2">
       <li><a href="#" target="_blank">HTML</a></li>
       <li><a href="#" target="_blank">CSS</a></li>
