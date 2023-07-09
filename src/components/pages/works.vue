@@ -1,7 +1,11 @@
 <script>
+  import Ukiyo from "ukiyojs";
   export default {
     name: "works",
-    components: {},
+    mounted() {
+      const images = document.querySelectorAll(".container_img");
+      new Ukiyo(images);
+    },
   };
 </script>
 
@@ -14,7 +18,9 @@
       </div>
       <div class="row2">
         <div class="erick">
-          <div class="container_img"></div>
+          <div class="container_img">
+            <img src="../../assets/img/4.jpg" alt="" class="ukiyo" />
+          </div>
           <h3>{{ $t("works.erick.title") }}</h3>
           <p>{{ $t("works.erick.desc") }}</p>
           <ul>
@@ -25,7 +31,9 @@
           </ul>
         </div>
         <div class="nubank">
-          <div class="container_img"></div>
+          <div class="container_img">
+            <img src="../../assets/img/3.jpg" alt="" class="ukiyo" />
+          </div>
           <h3>{{ $t("works.nubank.title") }}</h3>
           <p>{{ $t("works.nubank.desc") }}</p>
           <ul>
@@ -37,7 +45,9 @@
           </ul>
         </div>
         <div class="lib">
-          <div class="container_img"></div>
+          <div class="container_img">
+            <img src="../../assets/img/2.jpg" alt="" class="ukiyo" />
+          </div>
           <h3>{{ $t("works.lib.title") }}</h3>
           <p>{{ $t("works.lib.desc") }}</p>
           <ul>
@@ -47,7 +57,9 @@
           </ul>
         </div>
         <div class="spiderman">
-          <div class="container_img"></div>
+          <div class="container_img">
+            <img src="../../assets/img/1.jpg" alt="" class="ukiyo" />
+          </div>
           <h3>{{ $t("works.spiderman.title") }}</h3>
           <p>{{ $t("works.spiderman.desc") }}</p>
           <ul>
@@ -112,6 +124,11 @@
     max-width: 310px;
     max-height: 432px;
     margin-bottom: 12px;
+  }
+
+  .container_img img {
+    width: 100%;
+    height: 100%;
   }
 
   ul li {
