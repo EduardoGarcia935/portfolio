@@ -66,7 +66,76 @@ const messages = {
       label: "©2023 EduardoGarcia. All rights reserved.",
     },
   },
-  pt: {},
+  pt: {
+    navBar: {
+      logo: "Eduardo",
+    },
+    hero: {
+      hello: ["Olá, eu sou ", " e"],
+      name: "Eduardo",
+      phrase: ["Eu crio ", "coisas incríveis", " e escondo as ruins"],
+    },
+    subHero: {
+      iAM: {
+        intro: "Eu sou um",
+        title: "Freelancer, Designer & developer",
+        text: "Eu ajudo as pessoas a dar vida às suas ideias de uma forma única. A estrada pode ser lenta e conturbada, mas se meu nome está nela, pode ter certeza que terá o meu melhor.",
+        current: "Atualmente em busca de novas oportunidades",
+      },
+      help: "COISAS QUE POSSO TE AJUDAR",
+      things: "WEB & MOBILE / UI&UX / MOTION / DESENVOLVIMENTO FRONT END",
+    },
+    works: {
+      title: "Trabalhos",
+      subTitle: "Algumas oportunidades e projetos dos quais me orgulho!",
+      erick: {
+        title: "Erick Avila",
+        desc: "Um dos melhores designers que conheço.",
+        list: ["UI/UX Design", "Website", "Motion", "Front end"],
+      },
+      nubank: {
+        title: "Nubank",
+        desc: "Um redesign do site de uma das maiores fintechs brasileiras.",
+        list: ["UI Design", "Website", "Motion", "Redesign", "Front end"],
+      },
+      lib: {
+        title: "Biblioteca de componentes",
+        desc: "Minha própria biblioteca de componentes baseada no melhor Framework Javascript.",
+        list: ["UI/UX Design", "Motion", "Front end"],
+      },
+      spiderman: {
+        title: "Spiderman",
+        desc: "Um site repleto de animações para o amigo da vizinhança.",
+        list: ["UI Design", "Website", "Motion", "Front end"],
+      },
+    },
+    about: {
+      title: "Sobre",
+      name: "Eduardo Amengual Garcia",
+      bigText:
+        "Sou um nerd fã de cultura pop, que quando não estuda ou desenvolve um projeto pessoal está jogando videogame. Estudo desenvolvimento de software há 4 anos e atualmente moro no estado do Rio Grande do Sul, Brasil.",
+      studying: [
+        "Atualmente estou estudando ",
+        "Engenharia de Software na PUCRS",
+      ],
+      working: ["e trabalhando como ", "Desenvolvedor Front End Junior Remoto"],
+      button: "Contato",
+    },
+    skills: {
+      title: "Meu cinto de utilidades",
+      subtitle: "Habilidades e Tecnologias",
+      text: "Todo o conjunto de práticas, ensinamentos e aprendizados que adquiri ao longo da minha carreira e que uso para criar coisas incríveis.",
+      current: "Atualmente focando no aprendizado de Node.js ",
+    },
+    contact: {
+      title: ["Tem uma idea?", "Vamos fazer mágica"],
+      labels: ["Escreva-me", "Me ligue", "Me siga"],
+      links: ["Linkedin", "Github", "Instagram"],
+    },
+    footer: {
+      label: "©2023 EduardoGarcia. Todos direitos reservados.",
+    },
+  },
 };
 
 export default messages;

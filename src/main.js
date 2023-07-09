@@ -6,7 +6,7 @@ import "./assets/css/reset.css";
 import messages from "./assets/translation.js";
 
 const i18n = createI18n({
-  locale: "en",
+  locale: "pt",
   fallbackLocale: "en",
   messages,
 });
