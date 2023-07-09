@@ -35,7 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fffaf8;
   }
   .container {
     width: 1100px;

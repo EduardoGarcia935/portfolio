@@ -72,11 +72,9 @@
     width: 100vw;
     max-width: 100%;
     height: max-content;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fffaf8;
   }
 
   .container {
