@@ -10,7 +10,13 @@
     <div class="container">
       <div class="row1">
         <h2>{{ $t("contact.title[0]") }}</h2>
-        <h2>{{ $t("contact.title[1]") }}</h2>
+        <h2>
+          <a
+            href="https://api.whatsapp.com/send?phone=5551996700348"
+            target="_blank"
+            >{{ $t("contact.title[1]") }}</a
+          >
+        </h2>
       </div>
       <div class="row2">
         <div class="info">
@@ -19,20 +25,32 @@
         </div>
         <div class="info">
           <h3>{{ $t("contact.labels[1]") }}</h3>
-          <p>55 51 99670-0348</p>
+          <a
+            href="https://api.whatsapp.com/send?phone=5551996700348"
+            target="_blank"
+            >55 51 99670-0348</a
+          >
         </div>
       </div>
       <div class="row3">
         <p>{{ $t("contact.labels[2]") }}</p>
         <ul>
           <li>
-            <a href="#">{{ $t("contact.links[0]") }}</a>
+            <a href="https://github.com/EduardoGarcia935" target="_blank">{{
+              $t("contact.links[0]")
+            }}</a>
           </li>
           <li>
-            <a href="#">{{ $t("contact.links[1]") }}</a>
+            <a
+              href="https://www.linkedin.com/in/eduardogarcia935/"
+              target="_blank"
+              >{{ $t("contact.links[1]") }}</a
+            >
           </li>
           <li>
-            <a href="#">{{ $t("contact.links[2]") }}</a>
+            <a href="https://www.instagram.com/duduagarcia_/" target="_blank">{{
+              $t("contact.links[2]")
+            }}</a>
           </li>
         </ul>
       </div>
@@ -65,9 +83,23 @@
     font-size: 70px;
   }
 
-  .container .row1 h2:nth-child(2) {
-    color: #a8a8a8;
+  .container .row1 h2:nth-child(2) a {
     color: #14cf93;
+    position: relative;
+  }
+
+  .container .row1 h2:nth-child(2) a::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #14cf93;
+    position: absolute;
+    bottom: -2px;
+    transition: all 0.5s ease;
+  }
+
+  .container .row1 h2:nth-child(2) a:hover::before {
+    width: 100%;
   }
 
   .container .row2 {
@@ -87,8 +119,33 @@
     color: #a8a8a8;
   }
 
-  .container .row2 .info p {
+  .container .row2 .info p,
+  .container .row2 .info a {
     font-size: 20px;
+    color: #1a1a1a;
+    position: relative;
+    transition: all 0.5s ease;
+  }
+
+  .container .row2 .info p::before,
+  .container .row2 .info a::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #14cf93;
+    position: absolute;
+    bottom: -2px;
+    transition: all 0.5s ease;
+  }
+
+  .container .row2 .info a:hover,
+  .container .row2 .info p:hover {
+    color: #14cf93;
+  }
+
+  .container .row2 .info a:hover::before,
+  .container .row2 .info p:hover::before {
+    width: 100%;
   }
 
   .container .row3 {
@@ -111,6 +168,26 @@
 
   .container .row3 ul li a {
     color: #1a1a1a;
+    transition: all 0.5s ease;
+    position: relative;
+  }
+
+  .container .row3 ul li a::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #14cf93;
+    position: absolute;
+    bottom: -2px;
+  }
+
+  .container .row3 ul li a:hover::before {
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .container .row3 ul li a:hover {
+    color: #14cf93;
   }
 
   @media screen and (max-width: 780px) {
