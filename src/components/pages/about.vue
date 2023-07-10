@@ -23,13 +23,7 @@
         </p>
       </div>
       <div class="col2">
-        <div class="container_img bigImg">
-          <img
-            src="../../assets/img/perfil.jpg"
-            :alt="$t('about.alt')"
-            class="ukiyo"
-          />
-        </div>
+        <div class="container_img bigImg"></div>
       </div>
     </div>
   </main>
@@ -90,17 +84,13 @@
     width: 400px;
     height: 500px;
     background-color: var(--light-gray);
-  }
-
-  .container .col2 .bigImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background: url("../../assets/img/perfil.jpg") no-repeat;
+    background-size: cover;
     filter: grayscale(100%);
-    transition: all 0.6s ease;
+    transition: all 0.5s ease;
   }
 
-  .container .col2 .bigImg img:hover {
+  .container .col2 .bigImg:hover {
     filter: none;
   }
 

@@ -4,14 +4,11 @@ Navbar e menu
 
 Animações de scroll review no site todo
 
-ajeitar CEO com tags e etc
-
 ajeitar imagens da selected works
 
 ajeitar imagem da about
 
-funcionalidade de links
-
+ajeitar tags de titulo para melhorar CEO
 
 
 

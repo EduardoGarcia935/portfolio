@@ -13,13 +13,7 @@
       </div>
       <div class="row2">
         <div class="erick">
-          <div class="container_img">
-            <img
-              src="../../assets/img/3.jpg"
-              :alt="$t('works.erick.alt')"
-              class="ukiyo"
-            />
-          </div>
+          <div class="container_img"></div>
           <h3>{{ $t("works.erick.title") }}</h3>
           <p>{{ $t("works.erick.desc") }}</p>
           <ul>
@@ -30,13 +24,7 @@
           </ul>
         </div>
         <div class="nubank">
-          <div class="container_img">
-            <img
-              src="../../assets/img/nubank.svg"
-              :alt="$t('works.nubank.alt')"
-              class="ukiyo"
-            />
-          </div>
+          <div class="container_img"></div>
           <h3>{{ $t("works.nubank.title") }}</h3>
           <p>{{ $t("works.nubank.desc") }}</p>
           <ul>
@@ -48,13 +36,7 @@
           </ul>
         </div>
         <div class="lib">
-          <div class="container_img">
-            <img
-              src="../../assets/img/1.jpg"
-              :alt="$t('works.lib.alt')"
-              class="ukiyo"
-            />
-          </div>
+          <div class="container_img"></div>
           <h3>{{ $t("works.lib.title") }}</h3>
           <p>{{ $t("works.lib.desc") }}</p>
           <ul>
@@ -64,13 +46,7 @@
           </ul>
         </div>
         <div class="spiderman">
-          <div class="container_img">
-            <img
-              src="../../assets/img/spiderman-desktop.svg"
-              :alt="$t('works.spiderman.alt')"
-              class="ukiyo"
-            />
-          </div>
+          <div class="container_img"></div>
           <h3>{{ $t("works.spiderman.title") }}</h3>
           <p>{{ $t("works.spiderman.desc") }}</p>
           <ul>
@@ -163,6 +139,8 @@
   .erick .container_img {
     margin-left: 112px;
     margin-top: 94px;
+    background: url("../../assets/img/1.jpg") no-repeat;
+    background-size: cover;
   }
 
   .erick p,
@@ -177,6 +155,8 @@
 
   .nubank .container_img {
     margin-top: 309px;
+    background: url("../../assets/img/nubank.svg") no-repeat;
+    background-size: cover;
   }
 
   .lib {
@@ -187,6 +167,8 @@
     margin-left: 112px;
     position: relative;
     top: -50px;
+    background: url("../../assets/img/3.jpg") no-repeat;
+    background-size: cover;
   }
 
   .lib p,
@@ -203,6 +185,9 @@
 
   .spiderman .container_img {
     margin-top: 124px;
+    background-color: var(--gray);
+    background: url("../../assets/img/spiderman-desktop.svg") no-repeat;
+    background-size: cover;
   }
 
   @media screen and (max-width: 850px) {
