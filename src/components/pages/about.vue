@@ -24,7 +24,11 @@
       </div>
       <div class="col2">
         <div class="container_img bigImg">
-          <img src="../../assets/img/perfil.jpg" alt="" class="ukiyo" />
+          <img
+            src="../../assets/img/perfil.jpg"
+            :alt="$t('about.alt')"
+            class="ukiyo"
+          />
         </div>
       </div>
     </div>

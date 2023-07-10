@@ -14,7 +14,11 @@
       <div class="row2">
         <div class="erick">
           <div class="container_img">
-            <img src="../../assets/img/3.jpg" alt="" class="ukiyo" />
+            <img
+              src="../../assets/img/3.jpg"
+              :alt="$t('works.erick.alt')"
+              class="ukiyo"
+            />
           </div>
           <h3>{{ $t("works.erick.title") }}</h3>
           <p>{{ $t("works.erick.desc") }}</p>
@@ -27,7 +31,11 @@
         </div>
         <div class="nubank">
           <div class="container_img">
-            <img src="../../assets/img/nubank.svg" alt="" class="ukiyo" />
+            <img
+              src="../../assets/img/nubank.svg"
+              :alt="$t('works.nubank.alt')"
+              class="ukiyo"
+            />
           </div>
           <h3>{{ $t("works.nubank.title") }}</h3>
           <p>{{ $t("works.nubank.desc") }}</p>
@@ -41,7 +49,11 @@
         </div>
         <div class="lib">
           <div class="container_img">
-            <img src="../../assets/img/1.jpg" alt="" class="ukiyo" />
+            <img
+              src="../../assets/img/1.jpg"
+              :alt="$t('works.lib.alt')"
+              class="ukiyo"
+            />
           </div>
           <h3>{{ $t("works.lib.title") }}</h3>
           <p>{{ $t("works.lib.desc") }}</p>
@@ -55,7 +67,7 @@
           <div class="container_img">
             <img
               src="../../assets/img/spiderman-desktop.svg"
-              alt=""
+              :alt="$t('works.spiderman.alt')"
               class="ukiyo"
             />
           </div>

@@ -25,21 +25,25 @@ const messages = {
         title: "Erick Avila",
         desc: "One of the best designers i know.",
         list: ["UI/UX Design", "Website", "Motion", "Front end"],
+        alt: "Erick Avila Designer's logo in a dark background",
       },
       nubank: {
         title: "Nubank",
         desc: "A website redesign of one the largest Brazilian fintechs.",
         list: ["UI Design", "Website", "Motion", "Redesign", "Front end"],
+        alt: "Purple Nubank fintech logo in a light background",
       },
       lib: {
         title: "Component lib",
         desc: "My own component library based on top of the best Javascript Framework.",
         list: ["UI/UX Design", "Motion", "Front end"],
+        alt: "A mockup of a component library website inside a macbook",
       },
       spiderman: {
         title: "Spiderman",
         desc: "A cool motion based website for the Friendly Neighborhood Spidey.",
         list: ["UI Design", "Website", "Motion", "Front end"],
+        alt: "Red Spiderman logo in a dark background",
       },
     },
     about: {
@@ -49,7 +53,7 @@ const messages = {
         "I'm a nerdy fan of pop culture, who when not studying or developing a personal project is playing video games. I have been studying software development for 4 years and currently live in the state of Rio Grande do Sul, Brazil.",
       studying: ["I am currently studying ", "Software Engineering at PUCRS"],
       working: ["And working as ", "Junior Frond End Developer Fully Remote"],
-      button: "Contact",
+      alt: "A picture of me and my beautiful dog",
     },
     skills: {
       title: "My utility belt",
@@ -92,21 +96,25 @@ const messages = {
         title: "Erick Avila",
         desc: "Um dos melhores designers que conheço.",
         list: ["UI/UX Design", "Website", "Motion", "Front end"],
+        alt: "Logo do designer Erick Avila em um fundo escuro",
       },
       nubank: {
         title: "Nubank",
         desc: "Um redesign do site de uma das maiores fintechs brasileiras.",
         list: ["UI Design", "Website", "Motion", "Redesign", "Front end"],
+        alt: "Logo roxa do Nubank em um fundo claro",
       },
       lib: {
         title: "Biblioteca de componentes",
         desc: "Minha própria biblioteca de componentes baseada no melhor Framework Javascript.",
         list: ["UI/UX Design", "Motion", "Front end"],
+        alt: "Mockup de um site de biblioteca de componentes dentro de um macbook",
       },
       spiderman: {
         title: "Spiderman",
         desc: "Um site repleto de animações para o amigo da vizinhança.",
         list: ["UI Design", "Website", "Motion", "Front end"],
+        alt: "Logo vermelha do homem aranha em um fundo escuro",
       },
     },
     about: {
@@ -119,7 +127,7 @@ const messages = {
         "Engenharia de Software na PUCRS",
       ],
       working: ["e trabalhando como ", "Desenvolvedor Front End Junior Remoto"],
-      button: "Contato",
+      alt: "Uma foto minha com meu lindo cachorro",
     },
     skills: {
       title: "Meu cinto de utilidades",
