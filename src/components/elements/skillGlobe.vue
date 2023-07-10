@@ -77,50 +77,50 @@
 <template>
   <canvas width="500" height="500" id="myCanvas" v-if="isLarge">
     <ul id="tags">
-      <li><a>HTML</a></li>
-      <li><a>CSS</a></li>
-      <li><a>ES6+</a></li>
-      <li><a>C</a></li>
-      <li><a>JSON</a></li>
-      <li><a>PHP</a></li>
-      <li><a>Vue.js</a></li>
-      <li><a>React.js</a></li>
-      <li><a>C++</a></li>
-      <li><a>Bootstrap</a></li>
-      <li><a>Node JS</a></li>
-      <li><a>Git</a></li>
-      <li><a>SASS</a></li>
-      <li><a>mySQL</a></li>
-      <li><a>AGILE</a></li>
-      <li><a>SQI</a></li>
-      <li><a>npm</a></li>
-      <li><a>Figma</a></li>
-      <li><a>Motion</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">ES6+</a></li>
+      <li><a href="#">C</a></li>
+      <li><a href="#">JSON</a></li>
+      <li><a href="#">PHP</a></li>
+      <li><a href="#">Vue.js</a></li>
+      <li><a href="#">React.js</a></li>
+      <li><a href="#">C++</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">Node JS</a></li>
+      <li><a href="#">Git</a></li>
+      <li><a href="#">SASS</a></li>
+      <li><a href="#">mySQL</a></li>
+      <li><a href="#">AGILE</a></li>
+      <li><a href="#">SQI</a></li>
+      <li><a href="#">npm</a></li>
+      <li><a href="#">Figma</a></li>
+      <li><a href="#">Motion</a></li>
     </ul>
   </canvas>
 
   <canvas width="280" height="340" id="myCanvas2" v-else>
     <ul id="tags2">
-      <li><a>HTML</a></li>
-      <li><a>CSS</a></li>
-      <li><a>ES6+</a></li>
-      <li><a>TypeScript</a></li>
-      <li><a>C</a></li>
-      <li><a>JSON</a></li>
-      <li><a>C++</a></li>
-      <li><a>PHP</a></li>
-      <li><a>Vue.js</a></li>
-      <li><a>React.js</a></li>
-      <li><a>Bootstrap</a></li>
-      <li><a>Node JS</a></li>
-      <li><a>Git</a></li>
-      <li><a>SASS</a></li>
-      <li><a>mySQL</a></li>
-      <li><a>AGILE</a></li>
-      <li><a>SQI</a></li>
-      <li><a>npm</a></li>
-      <li><a>Figma</a></li>
-      <li><a>Motion</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">ES6+</a></li>
+      <li><a href="#">TypeScript</a></li>
+      <li><a href="#">C</a></li>
+      <li><a href="#">JSON</a></li>
+      <li><a href="#">C++</a></li>
+      <li><a href="#">PHP</a></li>
+      <li><a href="#">Vue.js</a></li>
+      <li><a href="#">React.js</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">Node JS</a></li>
+      <li><a href="#">Git</a></li>
+      <li><a href="#">SASS</a></li>
+      <li><a href="#">mySQL</a></li>
+      <li><a href="#">AGILE</a></li>
+      <li><a href="#">SQI</a></li>
+      <li><a href="#">npm</a></li>
+      <li><a href="#">Figma</a></li>
+      <li><a href="#">Motion</a></li>
     </ul>
   </canvas>
 </template>

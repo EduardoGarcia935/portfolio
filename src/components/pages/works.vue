@@ -135,6 +135,10 @@
     margin: 12px 0;
   }
 
+  .container .row2 h3 {
+    color: var(--green-water);
+  }
+
   .container .row2 p {
     margin-top: 12px;
     max-width: 310px;

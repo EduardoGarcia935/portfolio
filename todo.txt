@@ -2,8 +2,6 @@ TO Do's Portfólio
 
 Navbar e menu
 
-Loader
-
 Animações de scroll review no site todo
 
 ajeitar CEO com tags e etc
@@ -14,7 +12,6 @@ ajeitar imagem da about
 
 funcionalidade de links
 
-animações diferentes com gsap e scroll trigger
 
 
 
