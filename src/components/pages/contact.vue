@@ -36,16 +36,16 @@
         <p>{{ $t("contact.labels[2]") }}</p>
         <ul>
           <li>
-            <a href="https://github.com/EduardoGarcia935" target="_blank">{{
-              $t("contact.links[0]")
-            }}</a>
-          </li>
-          <li>
             <a
               href="https://www.linkedin.com/in/eduardogarcia935/"
               target="_blank"
-              >{{ $t("contact.links[1]") }}</a
+              >{{ $t("contact.links[0]") }}</a
             >
+          </li>
+          <li>
+            <a href="https://github.com/EduardoGarcia935" target="_blank">{{
+              $t("contact.links[1]")
+            }}</a>
           </li>
           <li>
             <a href="https://www.instagram.com/duduagarcia_/" target="_blank">{{
