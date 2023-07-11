@@ -6,16 +6,3 @@ Animações de scroll review no site todo
 
 ajeitar tags de titulo para melhorar CEO
 
-
-
-
-responsividade
-
-Hero    = OK
-SubHero = OK
-Navbar
-Menu    
-Works   = OK
-Skills  = OK
-About   = OK
-Contact = OK
