@@ -1,7 +1,13 @@
 <script>
+  import { storeToRefs } from "pinia";
+  import { useMainStore } from "../../store/mainStore";
   export default {
     name: "navBar",
-    components: {},
+    setup() {
+      const mainStore = useMainStore();
+      const { menu } = storeToRefs(mainStore);
+      return { menu };
+    },
   };
 </script>
 
@@ -12,7 +18,7 @@
         <a href="#">Eduardo</a>
       </div>
       <div class="menu">
-        <div class="hamburguer"></div>
+        <div class="hamburguer" @click="this.menu = !this.menu"></div>
       </div>
     </div>
   </header>
@@ -22,7 +28,7 @@
   header {
     width: 100vw;
     max-width: 100%;
-    height: 80px;
+    height: 60px;
     position: fixed;
     top: 0;
 

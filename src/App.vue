@@ -3,8 +3,8 @@
   import Ukiyo from "ukiyojs";
 
   import loader from "./components/elements/loader.vue";
-
   import navBar from "./components/pages/navBar.vue";
+  import menuVue from "./components/elements/menu.vue";
   import hero from "./components/pages/hero.vue";
   import subHero from "./components/pages/subHero.vue";
   import works from "./components/pages/works.vue";
@@ -13,11 +13,15 @@
   import contact from "./components/pages/contact.vue";
   import footerVue from "./components/pages/footer.vue";
 
+  import { storeToRefs } from "pinia";
+  import { useMainStore } from "./store/mainStore";
+
   export default {
     name: "App",
     components: {
       loader,
       navBar,
+      menuVue,
       hero,
       subHero,
       works,
@@ -25,6 +29,11 @@
       skills,
       contact,
       footerVue,
+    },
+    setup() {
+      const mainStore = useMainStore();
+      const { menu } = storeToRefs(mainStore);
+      return { menu };
     },
     mounted() {
       const lenis = new Lenis();
@@ -50,13 +59,24 @@
   <div id="app">
     <loader />
     <navBar />
+    <menuVue />
     <hero />
     <div class="wrapper">
-      <subHero />
-      <works />
-      <about />
-      <skills />
-      <contact />
+      <div id="subhero">
+        <subHero />
+      </div>
+      <div id="works">
+        <works />
+      </div>
+      <div id="about">
+        <about />
+      </div>
+      <div id="skills">
+        <skills />
+      </div>
+      <div id="contact">
+        <contact />
+      </div>
       <footerVue />
     </div>
   </div>

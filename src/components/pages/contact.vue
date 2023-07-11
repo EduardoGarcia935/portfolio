@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <main>
+  <main id="contact">
     <div class="container">
       <div class="row1">
         <h2>{{ $t("contact.title[0]") }}</h2>
