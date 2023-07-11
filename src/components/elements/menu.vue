@@ -14,10 +14,10 @@
 <template>
   <div id="menu" :class="{ active: menu }">
     <ul>
-      <li><a href="#works">Works</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#works" @click="menu = !menu">Works</a></li>
+      <li><a href="#about" @click="menu = !menu">About</a></li>
+      <li><a href="#skills" @click="menu = !menu">Skills</a></li>
+      <li><a href="#contact" @click="menu = !menu">Contact</a></li>
     </ul>
   </div>
 </template>
