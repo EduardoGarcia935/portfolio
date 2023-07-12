@@ -92,12 +92,15 @@
   }
 
   .row1 .group .dot {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
     position: relative;
+    background-color: rgba(18, 139, 101, 0.7);
+    animation: animate 2s linear infinite;
   }
 
-  .row1 .group .dot::before {
+  /* .row1 .group .dot::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -118,7 +121,7 @@
     background-color: var(--gray);
     border-radius: 50%;
     scale: 0.6;
-  }
+  } */
 
   .row2 {
     height: 150px;
@@ -152,6 +155,21 @@
     .arrow img {
       width: 40px;
       height: 40px;
+    }
+  }
+
+  @keyframes animate {
+    0% {
+      box-shadow: 0 0 0 0 rgba(20, 207, 147, 0.7);
+    }
+    40% {
+      box-shadow: 0 0 0 10px rgba(0, 206, 209, 0);
+    }
+    80% {
+      box-shadow: 0 0 0 10px rgba(0, 206, 209, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 rgba(0, 206, 209, 0);
     }
   }
 </style>
