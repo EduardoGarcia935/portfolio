@@ -18,7 +18,11 @@
         <a href="#">Eduardo</a>
       </div>
       <div class="menu">
-        <div class="hamburguer" @click="this.menu = !this.menu"></div>
+        <div
+          class="hamburguer"
+          @click="this.menu = !this.menu"
+          :class="{ hamburguerActive: this.menu }"
+        ></div>
       </div>
     </div>
   </header>
@@ -59,23 +63,64 @@
     height: 50px;
     position: relative;
     cursor: pointer;
+    transition: all 0.6s ease;
   }
 
   .hamburguer::before {
     content: "";
     position: absolute;
     height: 2px;
-    width: 80%;
-    background-color: aliceblue;
+    width: 60%;
+    background-color: var(--white);
     top: 35%;
+    right: 0;
+    transition: all 1s ease;
   }
 
   .hamburguer::after {
     content: "";
     position: absolute;
     height: 2px;
-    width: 80%;
-    background-color: aliceblue;
+    width: 60%;
+    background-color: var(--white);
     top: 55%;
+    right: 0;
+    transition: all 0.6s ease;
+  }
+
+  .hamburguerActive {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    transition: all 0.6s ease;
+  }
+
+  .hamburguerActive::before {
+    content: "";
+    position: absolute;
+
+    top: 50%;
+    left: 23%;
+
+    width: 80%;
+    height: 2px;
+    background-color: var(--white);
+    cursor: pointer;
+
+    transform: rotate(225deg);
+  }
+
+  .hamburguerActive::after {
+    content: "";
+    position: absolute;
+
+    top: 50%;
+    left: 23%;
+
+    width: 80%;
+    height: 2px;
+    background-color: var(--white);
+    transform: rotate(-405deg);
+    cursor: pointer;
   }
 </style>

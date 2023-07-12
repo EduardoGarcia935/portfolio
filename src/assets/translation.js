@@ -6,7 +6,7 @@ const messages = {
     hero: {
       hello: ["Hi, i'm ", " and"],
       name: "Eduardo",
-      phrase: ["I create ", "good shit", " and hide the bad ones"],
+      phrase: ["I create ", "amazing stuff", " and hide the bad ones"],
     },
     subHero: {
       iAM: {
@@ -68,6 +68,10 @@ const messages = {
     },
     footer: {
       label: "©2023 EduardoGarcia. All rights reserved.",
+    },
+    menu: {
+      links: ["Works", "About", "Skills", "Contact"],
+      labels: ["Language:", "English", "Portuguese"],
     },
   },
   pt: {
@@ -142,6 +146,10 @@ const messages = {
     },
     footer: {
       label: "©2023 EduardoGarcia. Todos direitos reservados.",
+    },
+    menu: {
+      links: ["Trabalho", "Sobre", "Skills", "Contato"],
+      labels: ["Idioma:", "Inglês", "Português"],
     },
   },
 };
