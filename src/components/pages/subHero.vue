@@ -19,8 +19,8 @@
           {{ $t("subHero.iAM.text") }}
         </p>
         <div class="group">
-          <div class="dot"></div>
-          <p>{{ $t("subHero.iAM.current") }}</p>
+          <div class="dot" data-aos-duration="1200"></div>
+          <p data-aos-duration="1200">{{ $t("subHero.iAM.current") }}</p>
         </div>
       </div>
       <div class="row2">
@@ -99,29 +99,6 @@
     background-color: rgba(18, 139, 101, 0.7);
     animation: animate 2s linear infinite;
   }
-
-  /* .row1 .group .dot::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: var(--light-gray);
-    border-radius: 50%;
-  }
-
-  .row1 .group .dot::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: var(--gray);
-    border-radius: 50%;
-    scale: 0.6;
-  } */
 
   .row2 {
     height: 150px;
