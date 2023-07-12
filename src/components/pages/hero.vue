@@ -15,8 +15,7 @@
         data-aos-delay="5400"
         class=".h3"
       >
-        {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
-        >{{ $t("hero.hello[1]") }}
+        {{ $t("hero.name") }}
       </h2>
       <h1
         id="h1"
@@ -24,8 +23,7 @@
         data-aos-duration="1500"
         data-aos-delay="5400"
       >
-        {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
-        >{{ $t("hero.phrase[2]") }}
+        {{ $t("hero.phrase[0]") }}
       </h1>
     </div>
   </main>
@@ -79,14 +77,10 @@
   }
 
   h2 {
-    color: var(--white);
-  }
-
-  h1 span {
     color: var(--gray);
   }
 
-  h2 span {
+  h1 span {
     color: var(--gray);
   }
 

@@ -4,14 +4,13 @@ const messages = {
       logo: "Eduardo",
     },
     hero: {
-      hello: ["Hi, i'm ", " and"],
-      name: "Eduardo",
-      phrase: ["I create ", "amazing stuff", " and hide the bad ones"],
+      name: "Eduardo Garcia",
+      phrase: ["Making the web a more beautiful place"],
     },
     subHero: {
       iAM: {
         intro: "I'am a",
-        title: "Freelancer, Designer & developer",
+        title: "Freelancer, Designer & Developer",
         text: "I help people bring their ideias to life in an unique way. The road may be slow and troubled, but if my name is on it, you can be sure you will have my best.",
         current: "Currently seeking new opportunities",
       },
@@ -79,9 +78,8 @@ const messages = {
       logo: "Eduardo",
     },
     hero: {
-      hello: ["Olá, eu sou ", " e"],
-      name: "Eduardo",
-      phrase: ["Eu crio ", "coisas incríveis", " e escondo as ruins"],
+      name: "Eduardo Garcia",
+      phrase: ["Fazendo da web um lugar mais bonito"],
     },
     subHero: {
       iAM: {
