@@ -13,48 +13,56 @@
       </div>
       <div class="row2">
         <div class="erick">
-          <div class="container_img"></div>
-          <h3>{{ $t("works.erick.title") }}</h3>
-          <p>{{ $t("works.erick.desc") }}</p>
-          <ul>
-            <li>{{ $t("works.erick.list[0]") }}</li>
-            <li>{{ $t("works.erick.list[1]") }}</li>
-            <li>{{ $t("works.erick.list[2]") }}</li>
-            <li>{{ $t("works.erick.list[3]") }}</li>
-          </ul>
+          <a href="#">
+            <div class="container_img"></div>
+            <h3>{{ $t("works.erick.title") }}</h3>
+            <p>{{ $t("works.erick.desc") }}</p>
+            <ul>
+              <li>{{ $t("works.erick.list[0]") }}</li>
+              <li>{{ $t("works.erick.list[1]") }}</li>
+              <li>{{ $t("works.erick.list[2]") }}</li>
+              <li>{{ $t("works.erick.list[3]") }}</li>
+            </ul>
+          </a>
         </div>
         <div class="nubank">
-          <div class="container_img"></div>
-          <h3>{{ $t("works.nubank.title") }}</h3>
-          <p>{{ $t("works.nubank.desc") }}</p>
-          <ul>
-            <li>{{ $t("works.nubank.list[0]") }}</li>
-            <li>{{ $t("works.nubank.list[1]") }}</li>
-            <li>{{ $t("works.nubank.list[2]") }}</li>
-            <li>{{ $t("works.nubank.list[3]") }}</li>
-            <li>{{ $t("works.nubank.list[4]") }}</li>
-          </ul>
+          <a href="#">
+            <div class="container_img"></div>
+            <h3>{{ $t("works.nubank.title") }}</h3>
+            <p>{{ $t("works.nubank.desc") }}</p>
+            <ul>
+              <li>{{ $t("works.nubank.list[0]") }}</li>
+              <li>{{ $t("works.nubank.list[1]") }}</li>
+              <li>{{ $t("works.nubank.list[2]") }}</li>
+              <li>{{ $t("works.nubank.list[3]") }}</li>
+              <li>{{ $t("works.nubank.list[4]") }}</li>
+            </ul>
+          </a>
         </div>
         <div class="lib">
-          <div class="container_img"></div>
-          <h3>{{ $t("works.lib.title") }}</h3>
-          <p>{{ $t("works.lib.desc") }}</p>
-          <ul>
-            <li>{{ $t("works.lib.list[0]") }}</li>
-            <li>{{ $t("works.lib.list[1]") }}</li>
-            <li>{{ $t("works.lib.list[2]") }}</li>
-          </ul>
+          <a href="#">
+            <div class="container_img"></div>
+            <h3>{{ $t("works.lib.title") }}</h3>
+            <p>{{ $t("works.lib.desc") }}</p>
+            <ul>
+              <li>{{ $t("works.lib.list[0]") }}</li>
+              <li>{{ $t("works.lib.list[1]") }}</li>
+              <li>{{ $t("works.lib.list[2]") }}</li>
+            </ul>
+          </a>
         </div>
         <div class="spiderman">
-          <div class="container_img"></div>
-          <h3>{{ $t("works.spiderman.title") }}</h3>
-          <p>{{ $t("works.spiderman.desc") }}</p>
-          <ul>
-            <li>{{ $t("works.spiderman.list[0]") }}</li>
-            <li>{{ $t("works.spiderman.list[1]") }}</li>
-            <li>{{ $t("works.spiderman.list[2]") }}</li>
-            <li>{{ $t("works.spiderman.list[3]") }}</li>
-          </ul>
+          <a href="#">
+            <div class="container_img"></div>
+            <h3>{{ $t("works.spiderman.title") }}</h3>
+            <p>{{ $t("works.spiderman.desc") }}</p>
+            <ul>
+              <li>{{ $t("works.spiderman.list[0]") }}</li>
+              <li>{{ $t("works.spiderman.list[1]") }}</li>
+              <li>{{ $t("works.spiderman.list[2]") }}</li>
+              <li>{{ $t("works.spiderman.list[3]") }}</li>
+            </ul>
+          </a>
         </div>
       </div>
     </div>
@@ -104,6 +112,15 @@
     gap: 50px;
   }
 
+  .container .row2 p {
+    font-size: 14px;
+    color: var(--gray);
+  }
+
+  .container .row2 h3 {
+    color: var(--black);
+  }
+
   .container_img {
     width: 70%;
     height: 70vh;
@@ -121,9 +138,6 @@
   ul li {
     color: var(--gray);
     margin: 12px 0;
-  }
-
-  .container .row2 h3 {
     color: var(--green-water);
   }
 
@@ -205,7 +219,7 @@
         "spiderman";
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      gap: 50px;
+      gap: 80px;
     }
 
     .container_img {
