@@ -1,7 +1,5 @@
 TO Do's Portfólio
 
-Navbar e menu
-
 Animações de scroll review no site todo
 
 ajeitar tags de titulo para melhorar CEO

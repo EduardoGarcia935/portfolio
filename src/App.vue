@@ -2,7 +2,7 @@
   import Lenis from "@studio-freight/lenis";
   import Ukiyo from "ukiyojs";
 
-  // import loader from "./components/elements/loader.vue";
+  import loader from "./components/elements/loader.vue";
   import navBar from "./components/pages/navBar.vue";
   import menuVue from "./components/elements/menu.vue";
   import hero from "./components/pages/hero.vue";
@@ -19,7 +19,7 @@
   export default {
     name: "App",
     components: {
-      // loader,
+      loader,
       navBar,
       menuVue,
       hero,
@@ -74,7 +74,7 @@
 
 <template>
   <div id="app">
-    <!-- <loader /> -->
+    <loader />
     <navBar />
     <menuVue />
     <hero />
