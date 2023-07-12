@@ -118,7 +118,7 @@
 
   .container .row2 p {
     font-size: 14px;
-    color: var(--gray);
+    color: var(--black);
   }
 
   .container .row2 h3 {
@@ -142,7 +142,7 @@
   ul li {
     color: var(--gray);
     margin: 12px 0;
-    color: var(--green-water);
+    /* color: var(--green-water); */
   }
 
   .container .row2 p {
@@ -157,7 +157,7 @@
   .erick .container_img {
     margin-left: 112px;
     margin-top: 94px;
-    background: url("../../assets/img/1.jpg") no-repeat;
+    background: url("../../assets/img/1-min.jpg") no-repeat;
     background-size: cover;
   }
 
@@ -185,7 +185,7 @@
     margin-left: 112px;
     position: relative;
     top: -50px;
-    background: url("../../assets/img/3.jpg") no-repeat;
+    background: url("../../assets/img/3-min.jpg") no-repeat;
     background-size: cover;
   }
 

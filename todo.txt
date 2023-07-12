@@ -1,6 +1,5 @@
 TO Do's Portfólio
 
-Animações de scroll review no site todo
+Mouse trail
 
-ajeitar tags de titulo para melhorar CEO
-
+ajeitar main phrase

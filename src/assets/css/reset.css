@@ -90,29 +90,22 @@ h2 {
 }
 
 h3 {
-  font-size: calc(1.3rem + 0.6vw);
-}
-@media (min-width: 1200px) {
-  h3 {
-    font-size: 1.75rem;
-  }
-}
-
-h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
-  h4 {
+  h3 {
     font-size: 1.5rem;
   }
 }
 
-h5 {
-  font-size: 1.25rem;
+/* Para tags h2 na intenção de manter acessibilidade alta */
+.h3 {
+  font-size: calc(1.275rem + 0.3vw);
 }
-
-h6 {
-  font-size: 1rem;
+@media (min-width: 1200px) {
+  .h3 {
+    font-size: 1.5rem;
+  }
 }
 
 p {

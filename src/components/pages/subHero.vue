@@ -9,9 +9,9 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h4 data-aos="fade-up" data-aos-duration="1200">
+        <h2 data-aos="fade-up" data-aos-duration="1200" class=".h3">
           {{ $t("subHero.iAM.intro") }}
-        </h4>
+        </h2>
         <h2 data-aos="fade-up" data-aos-duration="1200">
           {{ $t("subHero.iAM.title") }}
         </h2>
@@ -58,6 +58,10 @@
 
   .row1 {
     padding: 90px 0 200px 0;
+  }
+
+  .row1 h2:nth-child(1) {
+    color: var(--gray);
   }
 
   .row1 h2 {
