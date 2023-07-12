@@ -9,11 +9,16 @@
 <template>
   <main class="container_img ukiyo">
     <div class="container ukiyo">
-      <h4>
+      <h4 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="5400">
         {{ $t("hero.hello[0]") }}<span>{{ $t("hero.name") }}</span
         >{{ $t("hero.hello[1]") }}
       </h4>
-      <h1 id="h1">
+      <h1
+        id="h1"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="5400"
+      >
         {{ $t("hero.phrase[0]") }}<span>{{ $t("hero.phrase[1]") }}</span
         >{{ $t("hero.phrase[2]") }}
       </h1>
@@ -22,6 +27,15 @@
 </template>
 
 <style scoped>
+  body[data-aos-delay="5400"] [data-aos],
+  [data-aos][data-aos][data-aos-delay="5400"] {
+    transition-delay: 5400ms;
+  }
+
+  body[data-aos-delay="5700"] [data-aos],
+  [data-aos][data-aos][data-aos-delay="5700"] {
+    transition-delay: 5700ms;
+  }
   main {
     height: 100vh;
     max-width: 100%;

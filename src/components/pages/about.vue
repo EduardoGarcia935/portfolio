@@ -9,20 +9,24 @@
   <main>
     <div class="container">
       <div class="col1">
-        <h3>{{ $t("about.title") }}</h3>
-        <h2>{{ $t("about.name") }}</h2>
-        <p class="bigtext">
+        <h3 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("about.title") }}
+        </h3>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("about.name") }}
+        </h2>
+        <p class="bigtext" data-aos="fade-up" data-aos-duration="1200">
           {{ $t("about.bigText") }}
         </p>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="1200">
           {{ $t("about.studying[0]")
           }}<span>{{ $t("about.studying[1]") }}</span>
         </p>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="1200">
           {{ $t("about.working[0]") }}<span>{{ $t("about.working[1]") }}</span>
         </p>
       </div>
-      <div class="col2">
+      <div class="col2" data-aos="fade-up" data-aos-duration="1200">
         <div class="container_img bigImg"></div>
       </div>
     </div>

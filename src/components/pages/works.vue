@@ -8,8 +8,12 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h2>{{ $t("works.title") }}</h2>
-        <p>{{ $t("works.subTitle") }}</p>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("works.title") }}
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("works.subTitle") }}
+        </p>
       </div>
       <div class="row2">
         <div class="erick">

@@ -13,9 +13,15 @@
   <main>
     <div class="container">
       <div class="col1">
-        <h3>{{ $t("skills.subtitle") }}</h3>
-        <h2>{{ $t("skills.title") }}</h2>
-        <p>{{ $t("skills.text") }}</p>
+        <h3 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("skills.subtitle") }}
+        </h3>
+        <h2 data-aos="fade-up" data-aos-duration="1400">
+          {{ $t("skills.title") }}
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1600">
+          {{ $t("skills.text") }}
+        </p>
       </div>
       <div class="col2">
         <skillGlobe />

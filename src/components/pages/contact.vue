@@ -9,8 +9,10 @@
   <main id="contact">
     <div class="container">
       <div class="row1">
-        <h2>{{ $t("contact.title[0]") }}</h2>
-        <h2>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("contact.title[0]") }}
+        </h2>
+        <h2 data-aos="fade-up" data-aos-duration="1400">
           <a
             href="https://api.whatsapp.com/send?phone=5551996700348"
             target="_blank"
@@ -19,11 +21,11 @@
         </h2>
       </div>
       <div class="row2">
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-duration="1600">
           <h3>{{ $t("contact.labels[0]") }}</h3>
           <p>eduardo.agarcia117@gmail.com</p>
         </div>
-        <div class="info">
+        <div class="info" data-aos="fade-up" data-aos-duration="1800">
           <h3>{{ $t("contact.labels[1]") }}</h3>
           <a
             href="https://api.whatsapp.com/send?phone=5551996700348"
@@ -32,7 +34,7 @@
           >
         </div>
       </div>
-      <div class="row3">
+      <div class="row3" data-aos="fade-up" data-aos-duration="2000">
         <p>{{ $t("contact.labels[2]") }}</p>
         <ul>
           <li>

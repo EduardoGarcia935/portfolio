@@ -9,9 +9,13 @@
   <main>
     <div class="container">
       <div class="row1">
-        <h4>{{ $t("subHero.iAM.intro") }}</h4>
-        <h2>{{ $t("subHero.iAM.title") }}</h2>
-        <p>
+        <h4 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("subHero.iAM.intro") }}
+        </h4>
+        <h2 data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("subHero.iAM.title") }}
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1200">
           {{ $t("subHero.iAM.text") }}
         </p>
         <div class="group">
@@ -23,8 +27,12 @@
         <div class="arrow">
           <img src="../../assets/img/arrow.svg" alt="arrow" />
         </div>
-        <p class="p1">{{ $t("subHero.help") }}</p>
-        <p class="p2">{{ $t("subHero.things") }}</p>
+        <p class="p1" data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("subHero.help") }}
+        </p>
+        <p class="p2" data-aos="fade-up" data-aos-duration="1200">
+          {{ $t("subHero.things") }}
+        </p>
       </div>
     </div>
   </main>
