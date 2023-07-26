@@ -43,15 +43,16 @@
             </ul>
           </a>
         </div>
-        <div class="lib">
-          <a href="#">
+        <div class="paybank">
+          <a href="https://paybank.vercel.app">
             <div class="container_img"></div>
-            <h3>{{ $t("works.lib.title") }}</h3>
-            <p>{{ $t("works.lib.desc") }}</p>
+            <h3>{{ $t("works.paybank.title") }}</h3>
+            <p>{{ $t("works.paybank.desc") }}</p>
             <ul>
-              <li>{{ $t("works.lib.list[0]") }}</li>
-              <li>{{ $t("works.lib.list[1]") }}</li>
-              <li>{{ $t("works.lib.list[2]") }}</li>
+              <li>{{ $t("works.paybank.list[0]") }}</li>
+              <li>{{ $t("works.paybank.list[1]") }}</li>
+              <li>{{ $t("works.paybank.list[2]") }}</li>
+              <li>{{ $t("works.paybank.list[3]") }}</li>
             </ul>
           </a>
         </div>
@@ -110,7 +111,7 @@
     display: grid;
     grid-template-areas:
       "erick nubank"
-      "lib spiderman";
+      "paybank spiderman";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
@@ -177,21 +178,21 @@
     background-size: cover;
   }
 
-  .lib {
-    grid-area: lib;
+  .paybank {
+    grid-area: paybank;
   }
 
-  .lib .container_img {
+  .paybank .container_img {
     margin-left: 112px;
     position: relative;
     top: -50px;
-    background: url("../../assets/img/3-min.jpg") no-repeat;
+    background: url("../../assets/img/paybank.svg") no-repeat;
     background-size: cover;
   }
 
-  .lib p,
-  .lib ul,
-  .lib h3 {
+  .paybank p,
+  .paybank ul,
+  .paybank h3 {
     margin-left: 112px;
     position: relative;
     top: -50px;
@@ -219,7 +220,7 @@
       grid-template-areas:
         "erick"
         "nubank"
-        "lib"
+        "paybank"
         "spiderman";
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -263,19 +264,19 @@
       margin-top: 12px;
     }
 
-    .lib .container_img {
+    .paybank .container_img {
       margin: 0;
       position: static;
     }
 
-    .lib p,
-    .lib ul,
-    .lib h3 {
+    .paybank p,
+    .paybank ul,
+    .paybank h3 {
       margin: 0;
       position: static;
     }
 
-    .lib h3 {
+    .paybank h3 {
       margin-top: 12px;
     }
 

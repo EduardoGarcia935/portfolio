@@ -32,11 +32,11 @@ const messages = {
         list: ["UI Design", "Website", "Motion", "Redesign", "Front end"],
         alt: "Purple Nubank fintech logo in a light background",
       },
-      lib: {
-        title: "Component lib",
-        desc: "My own component library based on top of the best Javascript Framework.",
-        list: ["UI/UX Design", "Motion", "Front end"],
-        alt: "A mockup of a component library website inside a macbook",
+      paybank: {
+        title: "Paybank",
+        desc: "Institutional website of a fictitious bank",
+        list: ["UI/UX Design", "Motion", "Front end", "Website"],
+        alt: "Paybank logo in a dark background",
       },
       spiderman: {
         title: "Spiderman",
@@ -106,11 +106,11 @@ const messages = {
         list: ["UI Design", "Website", "Motion", "Redesign", "Front end"],
         alt: "Logo roxa do Nubank em um fundo claro",
       },
-      lib: {
-        title: "Biblioteca de componentes",
-        desc: "Minha própria biblioteca de componentes baseada no melhor Framework Javascript.",
-        list: ["UI/UX Design", "Motion", "Front end"],
-        alt: "Mockup de um site de biblioteca de componentes dentro de um macbook",
+      paybank: {
+        title: "Paybank",
+        desc: "Site institucional de um banco fictício ",
+        list: ["UI/UX Design", "Motion", "Front end", "Website"],
+        alt: "Logo do Paybank em um fundo escuro",
       },
       spiderman: {
         title: "Spiderman",
