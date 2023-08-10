@@ -23,7 +23,7 @@
       <div class="row2">
         <div class="info" data-aos="fade-up" data-aos-duration="1600">
           <h3>{{ $t("contact.labels[0]") }}</h3>
-          <p>eduardo.agarcia117@gmail.com</p>
+          <p>hi@duduagarcia.com</p>
         </div>
         <div class="info" data-aos="fade-up" data-aos-duration="1800">
           <h3>{{ $t("contact.labels[1]") }}</h3>
