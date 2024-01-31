@@ -30,7 +30,7 @@ export default {
           </a>
         </div>
         <div class="nubank">
-          <a href="https://github.com/duduagarcia/portfolio.git">
+          <a href="https://nubank-alpha.vercel.app/">
             <div class="container_img"></div>
             <h3>{{ $t("works.nubank.title") }}</h3>
             <p>{{ $t("works.nubank.desc") }}</p>
